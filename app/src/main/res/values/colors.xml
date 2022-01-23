@@ -8,14 +8,4 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#45E893</color>
-    <color name="Primary">#9FE2BF</color>
-    <color name="primaryDark">#2bCC6F</color>
-    <color name="Accent">#333333</color>
-    <color name="PrimaryLight">#E9F8F1</color>
-    <color name="Backround">#EBEBEB</color>
-    <color name="Secondary">#45E893</color>
-    <color name="colorprimary">#9FE2BF</color>
-    <color name="colorsecondary">#45E893</color>
-    <color name="hijautulisan">#70B792</color>
-    <color name="abu">#CECACA</color>
 </resources>
