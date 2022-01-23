@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_register"
+        applicationId "ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_cetakfoto"
         minSdk 22
         targetSdk 32
         versionCode 1
