@@ -3,22 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/account_circle_24.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/akun.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/camera.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/histori.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/ic_back.xml" value="0.1925925925925926" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.15989583333333332" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/ic_pengaturan.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/ic_wave__4_.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/round_bg.xml" value="0.28615384615384615" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/drawable-v24/round_border1.xml" value="0.1962962962962963" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_cetak_foto.xml" value="0.25" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_dashboard.xml" value="0.14719202898550723" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_history.xml" value="0.2" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_main.xml" value="0.14628623188405798" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_profil_saya.xml" value="0.14719202898550723" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING/app/src/main/res/layout/activity_register.xml" value="0.14719202898550723" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_REGISTER/app/src/main/res/drawable-v24/ic_wave__4_.xml" value="0.1962962962962963" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_REGISTER/app/src/main/res/layout/activity_main.xml" value="0.14719202898550723" />
       </map>
     </option>
   </component>
