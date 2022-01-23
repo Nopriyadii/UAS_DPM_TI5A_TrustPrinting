@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <View
+      android:id="@+id/view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#9FE2BF"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <View
+      android:id="@+id/view2"
+      android:layout_width="409dp"
+      android:layout_height="200dp"
+      android:background="@drawable/ic_wave__4_"
+      android:backgroundTint="@color/green"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.473"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:textColor="#FFFFFF"
+      android:textSize="30sp"
+      android:textStyle="normal|bold"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.104"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.047" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Account"
+      android:textColor="#FFFFFF"
+      android:textSize="30sp"
+      android:textStyle="normal|bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.237"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.104" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="310dp"
+      android:layout_height="50dp"
+      android:background="@drawable/round_border"
+      android:drawableStart="@drawable/ic_baseline_account_circle_24"
+      android:drawablePadding="5dp"
+      android:ems="10"
+      android:hint="Nama Lengkap"
+      android:inputType="textPersonName"
+      android:padding="16dp"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.334" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName2"
+      android:layout_width="310dp"
+      android:layout_height="50dp"
+      android:background="@drawable/round_border"
+      android:drawableStart="@drawable/username"
+      android:drawablePadding="5dp"
+      android:ems="10"
+      android:hint="Username"
+      android:inputType="textPersonName"
+      android:padding="16dp"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.437" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName3"
+      android:layout_width="310dp"
+      android:layout_height="50dp"
+      android:background="@drawable/round_border"
+      android:drawableStart="@drawable/email"
+      android:drawablePadding="5dp"
+      android:ems="10"
+      android:hint="Email"
+      android:inputType="textPersonName"
+      android:padding="16dp"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.543" />
+
+  <EditText
+      android:id="@+id/editTextTextPassword"
+      android:layout_width="310dp"
+      android:layout_height="50dp"
+      android:background="@drawable/round_border"
+      android:drawableStart="@drawable/password"
+      android:drawableEnd="@drawable/hide"
+      android:drawablePadding="5dp"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:padding="16dp"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/view"
+      app:layout_constraintVertical_bias="0.644" />
+
+  <Button
+      android:id="@+id/btRegister"
+      android:layout_width="243dp"
+      android:layout_height="50dp"
+      android:background="@drawable/round_bg"
+      android:backgroundTint="@color/green"
+      app:backgroundTint="@color/green"
+      android:text="Register"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.422"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.738" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sign a with"
+      android:textColor="#FFFFFF"
+      android:textStyle="normal|bold"
+      app:layout_constraintBottom_toBottomOf="@+id/view"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.46"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/view"
+      app:layout_constraintVertical_bias="0.8" />
+
+  <View
+      android:id="@+id/view3"
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+      android:background="@drawable/ic_wave__5_"
+      android:backgroundTint="@color/green"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <LinearLayout
+      android:layout_width="408dp"
+      android:layout_height="50dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.875">
+
+    <ImageView
+        android:id="@+id/imageKembaliProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/google" />
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
