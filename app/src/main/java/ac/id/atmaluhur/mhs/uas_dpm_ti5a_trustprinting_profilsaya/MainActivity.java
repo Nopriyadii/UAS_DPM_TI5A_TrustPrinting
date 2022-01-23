@@ -1,4 +1,4 @@
-package ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_history;
+package ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_profilsaya;
 
 import androidx.appcompat.app.AppCompatActivity;
 
