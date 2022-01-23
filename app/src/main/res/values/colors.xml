@@ -7,13 +7,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="Primary">#9FE2BF</color>
-    <color name="primaryDark">#2bCC6F</color>
-    <color name="Accent">#333333</color>
-    <color name="PrimaryLight">#E9F8F1</color>
-    <color name="Backround">#EBEBEB</color>
-    <color name="TredingStart">#00B09B</color>
-    <color name="TredingEnd">#90c93D</color>
-    <color name="Divider">#D6D6D6</color>
-    <color name="Secondary">#45E893</color>
+    <color name="green">#45E893</color>
 </resources>
