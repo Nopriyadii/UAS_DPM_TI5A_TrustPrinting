@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ac.id.atmaluhur.mhs.trustPrinting">
+    package="ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_dashboard">
 
     <application
         android:allowBackup="true"
@@ -8,22 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UAS_DPM_TI5A_TRUSTPRINTING">
-        <activity
-            android:name=".History"
-            android:exported="false" />
-        <activity
-            android:name=".ProfilSaya"
-            android:exported="false" />
-        <activity
-            android:name=".CetakFoto"
-            android:exported="false" />
-        <activity
-            android:name=".Dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
-            android:exported="false" />
+        android:theme="@style/Theme.UAS_DPM_TI5A_TRUSTPRINTING_DASHBOARD">
         <activity
             android:name=".MainActivity"
             android:exported="true">

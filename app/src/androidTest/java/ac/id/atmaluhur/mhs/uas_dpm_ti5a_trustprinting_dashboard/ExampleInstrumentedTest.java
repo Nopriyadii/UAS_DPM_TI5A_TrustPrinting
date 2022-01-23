@@ -1,4 +1,4 @@
-package ac.id.atmaluhur.mhs.trustPrinting;
+package ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_dashboard;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ac.id.atmaluhur.mhs.trustPrinting", appContext.getPackageName());
+        assertEquals("ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_dashboard", appContext.getPackageName());
     }
 }
