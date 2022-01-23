@@ -1,0 +1,527 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9FE2BF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/histori"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Histori"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/Imagekembali"
+        android:layout_width="42dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kembali" />
+
+    <View
+        android:id="@+id/search"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/histori" />
+
+    <ImageView
+        android:id="@+id/pencarian"
+        android:layout_width="42dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="@+id/search"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="@+id/search"
+        app:layout_constraintTop_toTopOf="@+id/search"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/pencarian" />
+
+    <View
+        android:id="@+id/tabelhistori1"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_border1"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+
+    <ImageView
+        android:id="@+id/histori1"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/histori" />
+
+    <ImageView
+        android:id="@+id/garis9"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.709"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="21 Januari 2022"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetak Foto"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.15.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.200.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.215.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetak Undangan"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+3"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+20"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori1"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori1"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori1"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori1"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <View
+        android:id="@+id/tabelhistori2"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_border1"
+        android:backgroundTint="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabelhistori1" />
+
+    <ImageView
+        android:id="@+id/histori2"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.011"
+        app:srcCompat="@drawable/histori" />
+
+    <ImageView
+        android:id="@+id/garis2"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="19 Januari 2022"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetak Undangan"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetak Foto"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+50"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+5"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.500.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.525.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.25.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori2"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori2"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori2"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori2"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <View
+        android:id="@+id/tabelhistori3"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_border1"
+        android:backgroundTint="#FF5722"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabelhistori2" />
+
+    <ImageView
+        android:id="@+id/histori3"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/histori" />
+
+    <ImageView
+        android:id="@+id/garis3"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 Januari 2022"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetak Foto"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+10"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.50.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.50.000"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tabelhistori3"
+        app:layout_constraintEnd_toEndOf="@+id/tabelhistori3"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="@+id/tabelhistori3"
+        app:layout_constraintTop_toTopOf="@+id/tabelhistori3"
+        app:layout_constraintVertical_bias="0.752" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
