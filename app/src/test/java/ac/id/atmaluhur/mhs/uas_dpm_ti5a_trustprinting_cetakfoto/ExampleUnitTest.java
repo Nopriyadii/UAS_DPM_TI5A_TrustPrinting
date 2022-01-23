@@ -1,4 +1,4 @@
-package ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_register;
+package ac.id.atmaluhur.mhs.uas_dpm_ti5a_trustprinting_cetakfoto;
 
 import org.junit.Test;
 

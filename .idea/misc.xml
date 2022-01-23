@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_REGISTER/app/src/main/res/drawable-v24/ic_wave__4_.xml" value="0.1962962962962963" />
-        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_REGISTER/app/src/main/res/layout/activity_main.xml" value="0.14719202898550723" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_CETAKFOTO/app/src/main/res/drawable/camera.xml" value="0.1962962962962963" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_CETAKFOTO/app/src/main/res/drawable/ic_back.xml" value="0.1925925925925926" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_CETAKFOTO/app/src/main/res/drawable/ic_money_svgrepo_com.xml" value="0.1962962962962963" />
+        <entry key="..\:/Semester 5/UAS_DPM_TI5A_TRUSTPRINTING_CETAKFOTO/app/src/main/res/layout/activity_main.xml" value="0.14719202898550723" />
       </map>
     </option>
   </component>
